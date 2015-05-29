@@ -1,0 +1,37 @@
+# Audio
+ao="alsa"
+mixer-channel="Master"
+srate=48000
+
+# Video 
+vo="xv"	# Video out
+zoom="1" # Allow sofware scaling if I use x11 for vo
+aid="1"	# Audio channel
+double="yes"	# Double buffering(recommended for subtitles)
+framedrop="1"	# For slow machines
+hardframedrop="0"  # Make sure hard frame drop is off but can turn on easily now
+ontop="1" # Always on top 
+
+# Console
+really-quiet="1" #Very very little console output
+
+# Subtitles
+sid="0" # Subtitle set
+subcp=utf8
+font=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf
+ffactor="10" # Black outline
+sub-bg-alpha="0" # Background color ala closed captions
+sub-bg-color="0" # Black to white
+subfont-text-scale="3.7"	# Truetype font scaling
+subfont-blur="1" # Slight blur
+subpos="90"	# By default subtitles are too low
+subalign="2"
+
+# This sets the postprocessing into overdrive using all possible spare cpu cycles to make the movie look better
+autoq=100
+vf=pp=de,hqdn3d
+
+# Disable lircd and joystick for mplayer-nogui
+nolircd=yes
+nojoystick=yes
+
