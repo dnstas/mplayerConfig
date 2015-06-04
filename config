@@ -6,7 +6,7 @@ srate=48000
 # Video 
 vo="xv"	# Video out
 zoom="1" # Allow sofware scaling if I use x11 for vo
-aid="1"	# Audio channel
+#aid="1"	# Audio channel
 double="yes"	# Double buffering(recommended for subtitles)
 framedrop="1"	# For slow machines
 hardframedrop="0"  # Make sure hard frame drop is off but can turn on easily now
@@ -32,6 +32,6 @@ autoq=100
 vf=pp=de,hqdn3d
 
 # Disable lircd and joystick for mplayer-nogui
-nolircd=yes
+nolirc=yes
 nojoystick=yes
 
