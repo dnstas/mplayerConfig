@@ -28,8 +28,8 @@ subpos="90"	# By default subtitles are too low
 subalign="2"
 
 # This sets the postprocessing into overdrive using all possible spare cpu cycles to make the movie look better
-autoq=100
-vf=pp=de,hqdn3d
+#autoq=100
+#vf=pp=de,hqdn3d
 
 # Disable lircd and joystick for mplayer-nogui
 nolirc=yes
